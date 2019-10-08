@@ -22,7 +22,7 @@ In this workshop, we will be using Jupyter Notebook to write your Python Codes. 
 
 ### 2. Trying out Jupyter Notebook
 
-- Go to the [Jupyter Notebooks on Binder](https://mybinder.org/v2/gh/nuslds/intro-beautifulsoup/master/) - Open the folder `warm_up`
+- Go to the [Jupyter Notebooks on Binder](https://mybinder.org/v2/gh/nuslds/intro-beautifulsoup/master/)
 - Create a new notebook
 
 ![](https://libapps-au.s3-ap-southeast-2.amazonaws.com/accounts/118911/images/27.PNG)
