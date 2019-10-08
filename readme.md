@@ -39,10 +39,10 @@ Web scraping saves you from the headaches of repeatedly copying or downloading d
 
 ## Overview
 
-- Part I. Jupyter Notebook & Python Warmup
-- Part II. Inspecting page source & HTML elements
-- Part III. Extracting Data from HTML with BeautifulSoup
-- Part IV. Scraping web pages with Requests and BeautifulSoup
+- [Part I. Jupyter Notebook & Python Warmup](https://github.com/nuslds/intro-beautifulsoup/blob/master/markdowns/Part_I_%20Jupyter_Notebook_Python_Warmup.md)
+- [Part II. Inspecting page source & HTML elements](https://github.com/nuslds/intro-beautifulsoup/blob/master/markdowns/Part_II_Inspecting_page_source_HTML_elements.md)
+- [Part III. Extracting Data from HTML with BeautifulSoup](https://github.com/nuslds/intro-beautifulsoup/blob/master/markdowns/Part_III_Extracting_data_from_HTML_with_BeautifulSoup.md)
+- [Part IV. Scraping web pages with Requests and BeautifulSoup](https://github.com/nuslds/intro-beautifulsoup/blob/master/markdowns/Part%20IV_Scraping_web_pages_with_Requests_and_BeautifulSoup.md)
 
 
 
