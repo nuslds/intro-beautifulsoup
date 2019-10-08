@@ -30,32 +30,3 @@ In **Activity 3**, we will be figuring out the patterns of the URL of each page.
 ### Step 2. Enjoy Coding
 
 Please go to the [Jupyter Notebooks on Binder](https://mybinder.org/v2/gh/nuslds/intro-beautifulsoup/master/) - Open the notebook `Part4_Scraping_Web_Pages_with_Requests_and_BeautifulSoup`.
-
-```python
-# Step 1. Import neccessary libraries
-import requests
-from bs4 import BeautifulSoup
-import pandas as pd
-
-# Step 2. Define the URL
-base_url = 'http://quotes.toscrape.com/page/'
-page_number = str(page_number)
-url = base_url + page_number
-
-# Step 3. Make a request to retrieve HTML codes
-r = requests.get(url)
-c = r.content
-
-# Step 4. Make the soup
-soup = BeautifulSoup(c, 'lxml')
-
-# Step 5 & 6. Parse HTML with BeautifulSoup and store the results
-quotes = soup.find_all('div', {'class': 'quote'})
-
-outputs = []
-for quote in quotes:
-    quote = get_quote(quote)
-    outputs.append(quote)
-
-```
-
